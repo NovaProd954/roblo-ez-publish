@@ -9,6 +9,10 @@
 const ALLOWED_ORIGINS = new Set([
   'https://axolotleless.github.io',
   'https://github.com',
+  'https://novaprod954.github.io/roblo-ez-publish/',
+  'http://localhost:5173',
+  'http://localhost:3000',
+  'https://localhost:3000',
 ]);
 
 function json(data, init = {}) {
